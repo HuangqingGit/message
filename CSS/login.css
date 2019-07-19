@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/sky1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*外部主窗体*/
+.primary {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+}
+/*弹窗及遮罩层*/
+.windows{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(15, 15, 15,0.6);
+    display: none;
+}
+    .news{
+        width: 300px;
+        height: 150px;
+        margin: 250px auto;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+        .news-top{
+            height: 110px;
+            text-align: center;
+            line-height: 110px;
+            font-size: 16px;
+        }
+        .news-bottom{
+            height: 40px;
+            display: flex;
+            border-top-color: #3a8330;
+            border-top-style: solid;
+            border-top-width: 1px;
+        }
+            #OK,
+            #cancel{
+                flex: 1;
+                text-align: center;
+                line-height: 40px;
+                font-size: 18px;
+                background-color: #00ccf3;
+            }
+            #OK:hover,
+            #cancel:hover{
+                background-color: #009cf3;
+                color: #fff;
+            }
+            #cancel{
+                border-bottom-left-radius: 15px;
+                
+            }
+            .line{
+                width: 2px;
+                height: 100%;
+                background-color: #3a8330;
+            }
+            #OK{
+                border-bottom-right-radius: 15px;
+            }
+
+
+/* 头部 */
+.head {
+    width: 100%;
+    height: 60px;
+}
+    .logo2{
+        width: 60px;
+        height: 60px;
+        margin-left: 50px;
+        float: left;
+    }
+        .logo2 img{
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+        }
+    .logotext{
+        float: left;
+        width: 200px;
+        height: 60px;
+        text-align: center;
+    }
+        .logo-ZH{
+            width: 100%;
+            height: 40px;
+            font-size: 27px;
+            letter-spacing: 3px;
+            color: #fff;
+            font-family: 'STXinwei';
+            line-height: 40px;
+        }
+        .logo-CH{
+            width: 100%;
+            height: 20px;
+            font-size: 14px;
+            color: #fff;
+            font-family: 'STXinwei';
+            line-height: 20px;
+        }
+
+/* 文章 */
+.article{
+    width: 100%;
+    flex: 1;
+}
+    marquee{
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        z-index: -1;
+    }
+        marquee .folatimg1{
+            width: 300px;
+            height: 200px;
+        }
+
+        marquee .folatimg2{
+            width: 400px;
+            height: 300px;
+        }
+    .folatimg{
+        width: 500px;
+        height: 300px;
+    }
+    .article-centre{
+        width: 800px;
+        height: 700px;
+        margin: 50px auto;
+        background-color:rgba(255, 255, 255,0.7);
+        border: 1px solid #f4f4f4;
+        border-radius: 10px;
+        box-shadow:0px 0px 2px 0.2px #bbb;
+    }
+        .login{
+            width: 300px;
+            margin: 50px auto;
+            padding: 10px;
+            display: flex;
+            flex-direction:column;
+        }
+            .logo{
+                width: 150px;
+                height: 150px;
+                margin: 0 auto;
+            }
+                .logo img{
+                    width: 150px;
+                    height: 150px;
+                }
+
+            .login h1{
+                font-size: 30px;
+                text-align: center;
+                color: #00aeb4;
+                margin-top: 15px;
+            }
+            .hint{
+                width: 230px;
+                margin: 0 auto;
+                margin-top: 10px;
+                display: none;
+                color: #f40;
+                font-size: 15px;
+            }
+            .login input{
+                width: 250px;
+                height: 40px;
+                margin: 0 auto;
+                padding-left: 15px;
+                margin-top: 15px;
+                border-radius: 25px;
+                border: 1px solid #00aeb4;    
+            }
+            .login button{
+                width: 265px;
+                height: 40px;
+                margin: 0 auto;
+                margin-top: 35px;
+                font-size: 20px;
+                border-radius: 20px;
+                border: 1px solid #00aeb4;
+                box-shadow:0px 0px 1px 0.5px #00aeb4;
+                background-color: #00aeb4;
+                color: #fff;
+            }
+            #login:hover{
+                background-color: #028ba9;
+            }
+            .register{
+                width: 265px;
+                height: 40px;
+                margin: 0 auto;
+                margin-top: 25px;
+                text-align: center;
+            }
+                .register text{
+                    padding: 0 5px 0 5px;
+                    color: #666;
+                }
+                .register text:hover{
+                    color: #000;
+                }
+
+/* 尾部 */
+.trail{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    background:rgba(80, 80, 80,0.6);
+}
+    .copyright{
+        text-align: center;
+        line-height: 40px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+@media only all and (max-width:1000px){
+    body{
+        background-image: url(../img/sky4.jpeg);
+        background-size: 130%;
+    }
+
+    .head {
+        display: none;
+    }
+    .article{
+        width: auto;
+        height: auto;
+    }
+        marquee .folatimg2{
+            width: 0;
+            height: 0;
+        }
+        .article-centre{
+            width: auto;
+            height: 100%;
+            margin: 0 auto;
+            border: 0px none #fff;
+            border-radius: 0px;
+            box-shadow:0px 0px 0px 0px #fff;
+        }
+            .login{
+                width: 300px;
+                margin: 0 auto;
+                padding: 5px;
+                display: flex;
+                flex-direction:column;
+            }
+                .logo{
+                    margin-top: 30px;
+                }
+
+                .login h1{
+                    display: none;
+                }
+                .login input{
+                    width: 260px;
+                    height: 40px;
+                    padding-left: 15px;
+                    font-size: 17px;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                    border-radius: 20px;
+                    box-shadow:0px 0px 1px 0.5px #00aeb4;
+                }
+                .login button{
+                    width: 280px;
+                    height: 40px;
+                    margin: 0 auto;
+                    margin-top: 35px;
+                    font-size: 20px;
+                    border-radius: 20px;
+                }
+
+    .trail{
+        height: 30px;
+    }
+        .copyright{
+            font-size: 10px;
+			line-height: 30px;
+            color: #fff;
+        }
+}

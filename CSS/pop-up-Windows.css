@@ -1,0 +1,76 @@
+/*蒙版*/
+.masking {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    background-color: rgba(15, 15, 15, .6);
+    display: none;
+}
+/*弹窗提示*/
+.remind {
+    width: 300px;
+    height: 180px;
+    margin: 0px auto;
+    margin-top: 120px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.log-icon {
+    height: 40px;
+    line-height: 40px;
+}
+
+.log-icon .iconfont {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.log-icon .text {
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.news {
+    height: 100px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 100px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #333;
+}
+
+.buttonfun {
+    height: 40px;
+}
+
+.buttonfun .butt {
+    float: left;
+    height: 38px;
+    border: 1px solid #444;
+}
+
+.buttonfun .but {
+    float: left;
+    width: 149px;
+    height: 40px;
+    background-color: #00ccf3;
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.buttonfun .but:hover {
+    background-color: #009cfc;
+    color: #fff;
+}
+
+#butt1 {
+    border-bottom-left-radius: 10px;
+}
+
+#butt2 {
+    border-bottom-right-radius: 10px;
+}
