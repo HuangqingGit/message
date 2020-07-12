@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=0.8, maximum-scale=0.8, minimum-scale=0.8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>酷创青春科技—登录</title>
+    <meta name="keywords" content="Open Lab,云平台,酷创,酷创青春科技,开放实验室管理系统,学生系统管理,毕业设计,选题系统,留言板,教育信息化,毕业设计选题系统">
+    <meta name="description" content="Open Lab,云平台,酷创,酷创青春科技,开放实验室管理系统,广元市四川信息职业技术学院学生团队研发,学生管理-课题提交,留言互动">
+
+    <link rel="shortcut icon" href="img/logo2.png">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/loaders-allocation.css">
+    <link rel="stylesheet" href="css/Loader.css">
+    <script src="https://js.cxwt.xyz/jquery_min_3.4.1.js"></script>
+    <script src="https://js.cxwt.xyz/jquery_cookie.js"></script>
+    <script src="https://js.cxwt.xyz/jscook.min.js"></script>
+</head>
+
+<body>
+    <!-- Loaded遮罩层 -->
+    <div class="Loaders">
+        <div class="loader">
+            <div class="loader-inner ball-spin-fade-loader">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="loader_text"></div>
+        </div>
+    </div>
+    <div class="primary">
+        <div class="windows">
+            <!-- 这是提示弹窗遮罩层！ -->
+            <div class="news">
+                <div class="news-top"></div>
+                <div class="news-bottom">
+                    <div id="cancel">取消</div>
+                    <div class="line"></div>
+                    <div id="OK">确定</div>
+                </div>
+            </div>
+        </div>
+        <!-- 头部 -->
+        <div class="head">
+            <div class="logo2">
+                <img src="img/logo2.png">
+            </div>
+            <div class="logotext">
+                <div class="logo-ZH">酷创青春科技</div>
+                <div class="logo-CH">COOL YOUTH TECHNOLOGY</div>
+            </div>
+        </div>
+
+        <!-- 文章 -->
+        <div class="article">
+            <marquee direction="right" scrollAmount='1'><img src="img/yun1.png" class="folatimg1"></marquee>
+            <marquee style="top: 50%" scrollAmount='1' class="marq"><img src="img/yun3.png" class="folatimg2"></marquee>
+            <div class="article-centre">
+                <div class="login">
+                    <div class="logo">
+                        <img src="img/logo1.png">
+                    </div>
+                    <h1>用户登录</h1>
+                    <div class="hint user">账号</div>
+                    <input id="User" type="text" autocomplete="off" placeholder="邮箱/手机号码/学号">
+                    <div class="hint pwd">密码</div>
+                    <input id="pwd" type="password" autocomplete="off" placeholder="密码">
+                    <button id="login">登 录</button>
+                    <div class="register">
+                        <text id="register">立即注册</text>
+                        <span>|</span>
+                        <text id="forget">忘记密码</text>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 尾部 -->
+        <div class="trail">
+            <div class="copyright">
+                <text>版权所有: ©酷创青春科技 | 备案号: 蜀ICP备19007129号-1 | 服务支持: GitHub</text>
+            </div>
+        </div>
+    </div>
+    <script src="JS/login.js"></script>
+    <script src="JS/project-public.js"></script>
+</body>
+
+</html>

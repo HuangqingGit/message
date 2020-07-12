@@ -1,0 +1,10 @@
+@import "../../css/conf.css";
+#tel {
+    background-color: #65acda;
+    color: #fff;
+}
+
+#email:hover {
+    background-color: #c1def0;
+    color: #fff;
+}

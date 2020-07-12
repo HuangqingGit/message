@@ -1,0 +1,407 @@
+/* [v-cloak] {
+    display: none;
+} */
+
+.font_float {
+    position: absolute;
+    display: none;
+}
+
+.font_style {
+    width: 240px;
+    height: 180px;
+    background: #00ccf3;
+}
+
+.font_color {
+    width: 240px;
+    height: 180px;
+    background: #00f200;
+}
+
+.font_iconf {
+    width: 240px;
+    height: 180px;
+    background: #c1c;
+}
+
+.messagebodydiv {
+    background: url(../img/messageimg.png);
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.pg-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.messagehead {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    color: #00ccf3;
+    font-weight: bold;
+    font-family: KaiTi_GB2312;
+}
+
+#message_content {
+    flex: 1;
+}
+
+.content_nest {
+    padding: 0 20px;
+    overflow-y: auto;
+}
+
+.Omnibox {
+    position: absolute;
+    width: 75px;
+    height: 40px;
+    right: 16px;
+    background: #03aa4e;
+    text-align: center;
+    line-height: 40px;
+    cursor:pointer;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#Return_TOP{
+    bottom: 200px;
+    color: #fff;
+}
+#Vlookup{
+    bottom: 241px;
+    color: #fff;
+    font-size: 23px;
+}
+
+.line {
+    border-top-color: #00ccf3;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-top: 10px;
+}
+
+.face {
+    width: 1000px;
+    height: 25px;
+    margin: 5px auto;
+}
+
+.user_font {
+    float: right;
+    line-height: 30px;
+    margin-right: 50px;
+}
+
+.user_font i {
+    font-size: 18px;
+    color: #b8b8b8;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.user_font i:hover {
+    background: #e0e0e0;
+}
+
+.char_num {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 105px;
+    font-size: 14px;
+    color: #777;
+    font-family: FZYaoti;
+}
+
+.send_message {
+    width: 1000px;
+    height: 95px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.input_box {
+    flex: 1;
+}
+
+.send_box {
+    width: 100px;
+    text-align: center;
+}
+
+.send_input {
+    width: 97.5%;
+    height: 80px;
+    padding: 5px 10px;
+    resize: none;
+    font-size: 18px;
+    border: 1px solid #00ccf3;
+    border-radius: 5px;
+}
+
+.send_but {
+    width: 70px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 3px;
+    border: 1px solid #00ccf3;
+    background-color: #00ccf3;
+    color: #fff;
+}
+
+.send_but:hover {
+    border: 1px solid #03aa4e;
+    background-color: #03aa4e;
+}
+
+.toast {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+#nonemessage {
+    width: 100%;
+    text-align: center;
+    color: #b3b4b7;
+}
+
+#nonemessage .iconfont {
+    padding-top: 100px;
+    font-size: 150px;
+}
+
+#nonemessage .nonetext {
+    font-size: 16px;
+
+}
+
+.toast_top,
+.toast_function {
+    padding: 5px;
+}
+
+.toast_top {
+    height: 40px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background: #00ccf3;
+}
+
+.toast_content {
+    padding: 5px 18px;
+    background: #e8e8e8;
+}
+
+.toast_function {
+    height: 25px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: #e8e8e8;
+}
+
+.toast_img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.toast_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.toast_type {
+    float: left;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.toast_type div {
+    height: 15px;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 0px 5px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 12.5px;
+}
+
+.toast_name {
+    float: left;
+    padding: 5px;
+    margin: 0 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.toast_T {
+    height: 30px;
+    padding: 5px 18px;
+    background: #e8e8e8;
+}
+
+.toast_time,
+.toast_icon {
+    float: right;
+    padding: 5px 2px;
+    margin-top: 2px;
+    font-size: 14px;
+    color: #999;
+}
+
+.toast_time {
+    margin-top: 2px;
+    margin-right: 30px;
+}
+
+.toast_else {
+    float: right;
+    padding: 5px 1px;
+    margin-right: 15px;
+}
+
+.toast_else div {
+    float: left;
+}
+
+.toast_else i {
+    cursor: pointer;
+}
+
+.praise,
+.fun {
+    margin-left: 25px;
+}
+
+.leave_num,
+.praise_num {
+    font-size: 12px;
+    font-family: '微软雅黑';
+}
+
+@media (max-width:1280px) {
+    .messagehead {
+        height: 45px;
+        line-height: 45px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1000px) {
+    .messagehead {
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    #message_content,
+    .send_message,
+    .face {
+        width: 100%;
+    }
+
+    .send_message {
+        height: 80px;
+    }
+
+    .face {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .send_input {
+        width: 95%;
+        margin-left: 10px;
+        height: 65px;
+    }
+
+    .send_but {
+        margin-top: 23px;
+    }
+
+    .char_num {
+        margin-right: 115px;
+    }
+
+    .newss {
+        top: 115px;
+    }
+
+    .toast {
+        width: 100%;
+    }
+    .Omnibox{
+        right: 0;
+        width: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .messagehead {
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    #message_content,
+    .send_message,
+    .face {
+        width: 100%;
+    }
+
+    .send_message {
+        height: 50px;
+    }
+
+    .send_input {
+        width: 94.5%;
+        font-size: 14px;
+        height: 35px;
+    }
+
+    .send_box {
+        width: 70px;
+    }
+
+    .send_but {
+        margin-top: 8.5px;
+        width: 40px;
+    }
+
+    .char_num {
+        margin-right: 70px;
+    }
+}
+
+@media (max-width:400px) {
+
+    #message_content,
+    .send_message,
+    .face {
+        width: 100%;
+    }
+
+    .send_input {
+        width: 90.5%;
+        font-size: 14px;
+    }
+}

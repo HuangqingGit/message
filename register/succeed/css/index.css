@@ -1,0 +1,158 @@
+@import "../../css/conf.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(../img/bj.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header,
+footer {
+    background: none;
+    border: none;
+}
+
+#head_text div {
+    color: #fff;
+}
+
+#main_content {
+    width: 1000px;
+    background: rgba(250, 250, 250, 0.4);
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+#okbox {
+    height: 28px;
+    width: 110px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#okicon {
+    float: left;
+    height: 28px;
+    font-size: 25px;
+    color: #1d78cc;
+}
+
+#oktext {
+    float: left;
+    height: 28px;
+    line-height: 27px;
+    margin-left: 5px;
+    font-size: 18px;
+    color: #1d78cc;
+}
+
+.welcome {
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: STKaiti;
+    color: #1d78cc;
+}
+
+.motto {
+    font-size: 17px;
+    text-align: center;
+    font-family: STKaiti;
+    color: #1d78cc;
+}
+
+#usermes {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.userimg {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.userimg img {
+    width: 60px;
+    height: 60px;
+    border-radius: 33px;
+    box-shadow: #d6d6d6 3px -3px 6px 1px;
+}
+
+.userid {
+    font-size: 18px;
+    color: #1d78cc;
+    text-align: center;
+}
+
+#zcid {
+    margin-top: 10px;
+}
+
+#xtid {
+    font-size: 13px;
+}
+
+.img {
+    padding: 30px 10px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.home {
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px;
+    background: #1d78cc;
+    color: #fff;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.home:hover {
+    background: #3886cf;
+}
+
+.identity {
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.identity a {
+    color: #fff;
+}
+
+.identity a:hover {
+    color: #7fff00;
+}
+
+.Tips {
+    text-align: center;
+    color: #777;
+    margin-top: 40px;
+    cursor: default;
+}
+
+#footer_QR,
+.put,
+.put a {
+    color: #fff;
+}
+
+.put a:hover {
+    color: #61e608;
+}

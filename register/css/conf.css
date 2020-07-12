@@ -1,0 +1,283 @@
+@import "max640.css";
+@import "hint.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(../succeed/img/bj.jpg);
+    background-size: 100% 100%;
+}
+
+header {
+    height: 80px;
+    background-color: #fcfcfc;
+    margin-bottom: 30px;
+    background: none;
+}
+
+footer {
+    background-color: #fcfcfc;
+    background: none;
+}
+
+#head_logo,
+#head_text {
+    display: inline-block;
+    height: 60px;
+    padding: 10px;
+}
+
+#head_logo {
+    float: left;
+    margin-left: 200px;
+}
+
+#head_text {
+    float: left;
+    text-align: center;
+}
+
+#head_logo img {
+    height: 60px;
+}
+
+.logo_ZH {
+    width: 100%;
+    height: 40px;
+    font-size: 27px;
+    letter-spacing: 3px;
+    color: #fff;
+    font-family: 'STXinwei';
+    line-height: 40px;
+}
+
+.logo_CH {
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'STXinwei';
+    line-height: 20px;
+}
+
+#main_content {
+    flex: 1;
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#content_head {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Helvetica Neue',
+        Helvetica, 'Hiragino Sans GB',
+        'Microsoft YaHei', 微软雅黑,
+        Arial, sans-serif
+}
+
+.cont_head_zh {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cont_head_ch {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#form,
+#zc_type {
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.zc_box {
+    width: 360px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.box_div {
+    width: 50%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #aaa;
+    background-color: #e6e6e6;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.in {
+    text-align: center;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.ic {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    color: #F40;
+}
+
+.ic i {
+    font-size: 17px;
+}
+
+.text_mesg {
+    font-size: 15px;
+}
+
+.ini {
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+.yz {
+    width: 360px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.input_text {
+    width: 350px;
+    height: 35px;
+    border: 1px solid #cdcdcd;
+    padding-left: 8px;
+    border-color: #CDCDCD;
+    font-size: 14px;
+    outline: none;
+}
+
+#auth {
+    width: 200px;
+}
+
+#sendauth {
+    height: 35px;
+    width: 100px;
+    outline: none;
+    border: none;
+    float: right;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+}
+
+#accept {
+    color: #65acda;
+    font-size: 20px;
+    cursor: pointer
+}
+
+.accept_text {
+    font-size: 14px;
+    color: #fff;
+}
+
+#clause {
+    background: none;
+    font-size: 14px;
+    color: bisque;
+}
+
+#clause:hover {
+    color: #7fff00;
+}
+
+#send {
+    width: 280px;
+    height: 40px;
+    text-indent: 22px;
+    letter-spacing: 22px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+#login {
+    background: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+#footer_QR {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.QR {
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+
+.QR img {
+    width: 80px;
+}
+
+.QR div {
+    font-weight: initial;
+    font-size: 12px;
+    color: #fff;
+}
+
+.put {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.put a {
+    font-size: 14px;
+    color: bisque;
+}
+
+.put a:hover {
+    color: #7fff00;
+}
+
+/*条件添加样式*/
+.the {
+    background-color: #65acda;
+    color: #65acda;
+}
+
+.the:hover {
+    background-color: #84bde1;
+    color: #84bde1;
+}
+
+.forbidden {
+    background-color: #e5e5e5;
+}
+
+.forbidden:hover {
+    background-color: #e5e5e5;
+}
+
+.error {
+    border: 2px solid #F40;
+}

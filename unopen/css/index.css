@@ -1,0 +1,16 @@
+#content{
+    background: url(../img/messageimg.png);
+}
+.error_unopen{
+    margin-top: 180px;
+    height: 300px;
+    text-align: center;
+}
+#unopenicon{
+    font-size: 160px;
+    color: #999;
+}
+.unopentxt{
+    font-size: 24px;
+    color: #999;
+}

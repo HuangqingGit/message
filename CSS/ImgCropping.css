@@ -33,7 +33,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    z-index: 1000;
+    z-index: 80;
     top: 0;
     left: 0;
 }
@@ -42,15 +42,15 @@
     width: 100%;
     height: 100%;
     background: #111;
-    opacity: .9;
-    z-index: 1001;
+    opacity: .3;
+    z-index: 96;
 }
 .tailoring-container .tailoring-content{
     position: absolute;
     width: 768px;
     height: 560px;
     background: #fff;
-    z-index: 1002;
+    z-index: 97;
     left: 0;
     top: 0;
 
@@ -64,7 +64,7 @@
     -o-transform: translate(-50%,-50%);*/
 
     border-radius: 10px;
-    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #aaa;
     padding: 10px;
 }
 

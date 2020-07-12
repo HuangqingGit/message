@@ -1,9 +1,9 @@
-<?php
-    $host = '148.70.65.223';
+﻿<?php
+    $host = '139.155.23.116';
     $dbuser = 'User';
-    $pwd = '18780839713';
+    $pwd = 'Cai5201314..+';
     $dbname = 'bysj';
-    
+
     $db = new mysqli( $host, $dbuser, $pwd, $dbname );//连接数据库
     if ($db->connect_errno <> 0) {  //判断数据库是否连接成功
         echo "数据库连接失败！";
